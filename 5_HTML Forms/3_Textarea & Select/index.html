@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea & Select</title>
+</head>
+<body>
+    <!-- Textarea Element -->
+     <label for="feedback">Feedback: </label>
+     <textarea name="feedback" id="feedback" placeholder="Enter Your Feedback Here" rows="4" cols="70"></textarea>
+
+
+     <!-- Select Element -->
+    <label for="favoriteColor">Favourie Color: </label>
+    <select name="FavourieColor" id="FavourieColor">
+        <option value="red">Red</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="green">Gree</option>
+    </select>
+    <hr>
+
+    <!-- Combining Textarea and Select -->
+    <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

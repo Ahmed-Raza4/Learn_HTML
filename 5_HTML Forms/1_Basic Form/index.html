@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- HTML Basic Form Structure -->
+    <table>
+        <form action="/action.php">
+        <caption>Basic Form<caption> 
+        <tr><td>
+        <!-- Name and Father Name -->
+        <label for="name">Name: </label> </td><td>
+        <input type="text" id="name" class="name" name="name">
+        <br></td></tr>
+        <tr><td><label for="fathername">Father Name: </label></td>
+        <td><input type="text" id="father name" class="father name" name="father name">
+        <br></td></tr>
+        <!-- Radio Button -->
+        <tr><td><label for="gender">Gender: </label></td>
+        <TD><input type="radio" id="male" class="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" class="female" name="gender">
+        <label for="female">Female</label>
+        <br></TD></tr>
+        <!-- Email and Password -->
+        <tr><td><label for="email">Email: </label></td>
+        <td><input type="text" id="email" class="email" name="email">
+        <br></td></tr>
+        <tr><td><label for="password">Password: </label></td>
+        <td><input type="password" id="password" class="password" name="password">
+        <br></td></tr>
+        <!-- Submit & Reset Button  -->
+        <tr><td><input type="submit" id="submit"></td>
+        <td><input type="reset" id="reset"></td></tr>
+     </form>
+    </table>
+</body>
+</html>
